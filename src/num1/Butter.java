@@ -36,11 +36,11 @@ public class Butter extends Bread{
 
 	@Override
 	public void printTypeRecipe() {
-		System.out.println("breadTyoe: "+ this.getBreadType());
+		System.out.println("breadType: "+ this.getBreadType());
 		System.out.println("recipe");
 		System.out.println("flour: "+this.getFlour());
 		System.out.println("water: "+this.getWater());
 		System.out.println("butter: "+this.getButter());
-		
+		System.out.println();
 	}
 }

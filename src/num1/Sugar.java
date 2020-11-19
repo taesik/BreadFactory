@@ -33,12 +33,12 @@ public class Sugar extends Bread{
 	//Getters Setters END
 	@Override
 	public void printTypeRecipe() {
-		System.out.println("breadTyoe: "+ this.getBreadType());
+		System.out.println("breadType: "+ this.getBreadType());
 		System.out.println("recipe");
 		System.out.println("flour: "+this.getFlour());
 		System.out.println("water: "+this.getWater());
 		System.out.println("sugar: "+this.getSugar());
-		
+		System.out.println();
 	}
 	
 }
